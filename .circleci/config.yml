@@ -1,5 +1,5 @@
-## More info on this config please check out tpl-api-helpers docs here:
-## @link https://github.com/etidbury/tpl-api-helpers/blob/master/docs/circleci.md
+## More info on this config please check out ts-lib-helpers docs here:
+## @link https://github.com/etidbury/ts-lib-helpers/blob/master/docs/circleci.md
 
 version: 2
 jobs:
@@ -57,8 +57,8 @@ jobs:
 
 
 
-      ## More info on this config please check out tpl-api-helpers docs here:
-      ## @link https://github.com/etidbury/tpl-api-helpers/blob/master/docs/circleci.md
+      ## More info on this config please check out ts-lib-helpers docs here:
+      ## @link https://github.com/etidbury/ts-lib-helpers/blob/master/docs/circleci.md
       - run:
           name: Deployment
           command: |
