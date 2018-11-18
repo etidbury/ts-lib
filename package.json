@@ -15,7 +15,7 @@
     "build": "npm run build:reset && NODE_ENV=production $(npm bin)/tsc",
     "build:reset": "rm -rf dist",
     "eslint": "$(npm bin)/eslint --max-warnings 300 ./",
-    "dev":"$(npm bin)/tsc --watch",
+    "dev": "$(npm bin)/tsc --watch",
     "start": "npm run dev",
     "setup": "tidil setup --tpl ts-lib",
     "test:ci": "npm run test --forceExit",
@@ -23,6 +23,7 @@
     "test:watch": "$(npm bin)/jest --watchAll --runInBand"
   },
   "dependencies": {
+    "@etidbury/ts-lib-helpers": "^0.0.1",
     "url-join": "4.0.0"
   },
   "devDependencies": {
