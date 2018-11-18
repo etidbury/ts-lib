@@ -1,4 +1,5 @@
-export const hello=()=>{
-    console.log('hello world')
-    return "world"
+export const hello=(name)=>{
+    const msg = `hello ${name}`
+    console.log(msg)
+    return msg
 }

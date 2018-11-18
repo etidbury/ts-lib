@@ -26,5 +26,3 @@ node_modules
 
 # Ignore builds?
 # .build*
-
-__tests__/demo-api/node_modules
